@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="FrontDoor.ino" />
+    <None Include="FrontDoor.xlsx">
+      <Filter>EXCEL</Filter>
+    </None>
+    <None Include="DoorManager.xlsx">
+      <Filter>EXCEL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bell.h" />
+    <ClInclude Include="FrontDoor.h" />
+    <ClInclude Include="SelfTest.h" />
+    <ClInclude Include="__vm\.FrontDoor.vsarduino.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="Sonar.h" />
+    <ClInclude Include="Motion.h" />
+    <ClInclude Include="DoorOpen.h" />
+    <ClInclude Include="ShabatSwitch.h" />
+    <ClInclude Include="DoorManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Bell.cpp" />
+    <ClCompile Include="SelfTest.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="Sonar.cpp" />
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="DoorOpen.cpp" />
+    <ClCompile Include="ShabatSwitch.cpp" />
+    <ClCompile Include="DoorManager.cpp" />
+    <ClCompile Include="SIM_DM_BeforeMotzeyShabat.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_BeforeMotzeyShabat_2.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_OpenAndCloseTheDoor_Manual.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_ShabatSwitch.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_StartAfterHadlakaDoorClosed.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_StartBeforeHadlakaDoorClosed.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_StartCholDoorClosed.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_StartCholOpenTheDoor.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_DM_StartCholSwitchToShabat.cpp">
+      <Filter>SIMULATOR\Door Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SIM_Main.cpp">
+      <Filter>SIMULATOR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="AppDefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EXCEL">
+      <UniqueIdentifier>{7da04d27-45a4-4c0f-a23f-ee0d160736ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMULATOR">
+      <UniqueIdentifier>{84f3eb48-8ea1-47c6-9eb7-7c81a8d58e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMULATOR\Door Manager">
+      <UniqueIdentifier>{be9c0d6e-844c-443e-88ae-e7d69ee1a0a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

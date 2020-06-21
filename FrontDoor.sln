@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrontDoor", "FrontDoor\FrontDoor.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YgLibs", "..\YgLibs\YgLibs.vcxitems", "{35796781-540D-45A9-BC56-1D1068143C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TESTS", "TESTS", "{B9CC4E61-C89F-4E34-B861-AC9E365B199C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSpeaker", "TestSpeaker\TestSpeaker.vcxproj", "{7C636975-D017-4124-B794-4F1C2362DDB3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMotion", "TestMotion\TestMotion.vcxproj", "{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSonar", "TestSonar\TestSonar.vcxproj", "{C29F3BC5-B16D-451D-B70A-B985F38CA46E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMelody", "TestMelody\TestMelody.vcxproj", "{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x64.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Debug|x64.ActiveCfg = Debug|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Debug|x86.Build.0 = Debug|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Release|x64.ActiveCfg = Release|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Release|x86.ActiveCfg = Release|Win32
+		{7C636975-D017-4124-B794-4F1C2362DDB3}.Release|x86.Build.0 = Release|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Debug|x64.ActiveCfg = Debug|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Debug|x86.Build.0 = Debug|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Release|x64.ActiveCfg = Release|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Release|x86.ActiveCfg = Release|Win32
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB}.Release|x86.Build.0 = Release|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Debug|x64.ActiveCfg = Debug|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Debug|x86.Build.0 = Debug|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Release|x64.ActiveCfg = Release|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Release|x86.ActiveCfg = Release|Win32
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E}.Release|x86.Build.0 = Release|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Debug|x64.ActiveCfg = Debug|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Debug|x86.Build.0 = Debug|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Release|x64.ActiveCfg = Release|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Release|x86.ActiveCfg = Release|Win32
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C636975-D017-4124-B794-4F1C2362DDB3} = {B9CC4E61-C89F-4E34-B861-AC9E365B199C}
+		{F75B4AD2-AC24-4F17-9F2C-CF42BE3446BB} = {B9CC4E61-C89F-4E34-B861-AC9E365B199C}
+		{C29F3BC5-B16D-451D-B70A-B985F38CA46E} = {B9CC4E61-C89F-4E34-B861-AC9E365B199C}
+		{FFF1BDE7-AC88-41DF-A4CA-014B721599D5} = {B9CC4E61-C89F-4E34-B861-AC9E365B199C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42AD186A-EB32-4835-A4F2-0297BF8197CD}
+	EndGlobalSection
+EndGlobal
